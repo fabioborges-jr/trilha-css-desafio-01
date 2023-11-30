@@ -1,3 +1,10 @@
-* {
-    color: red;
+.banner{
+    background-image: linear-gradient(#040709, #0a181e, #0d222b, #0a181e, #040709);
+}
+
+.banner-content{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
