@@ -8,14 +8,16 @@ body{
     background-image: url(./assets/images/banner.png), linear-gradient(#040709, #0a181e, #0d222b, #0a181e, #040709);
     background-repeat: no-repeat;
     height: 605px;
+    display: flex;
 }
 
 .banner-content{
+    width: 515px;
     padding: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 510px;
+    margin:auto;
 }
 
 .logo{
@@ -26,24 +28,38 @@ body{
 *{
     font-family: "raleway";
 }
-h1, h2 {
+
+h1, h2, button {
     color: transparent;
     text-transform: uppercase;
     background-image: linear-gradient(#33A8DB, #1472B7);
     -webkit-background-clip: text;
 }
 
-h1{
+h1, button{
     font-weight: 900;
+}
+
+h1{
     font-size: 40px;
+    text-shadow: black 0.05rem 0.05rem 0.25rem;
 }
 
 h2 {
     font-weight: 700;
 }
 
+button{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    border-style: solid;
+    border-image: linear-gradient(#31A8DD, #1572B7);
+    border-image-slice: 1;
+    letter-spacing: 0.25rem;
+}
+
 p{
     font-size: 20px;
     color:white;
-    text-wrap: ;
 }
