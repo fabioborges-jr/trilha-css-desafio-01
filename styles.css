@@ -9,8 +9,9 @@ body{
 }
 
 .banner{
-    background-image: url(./assets/images/banner.png), linear-gradient(#040709, #0a181e, #0d222b, #0a181e, #040709);
+    background-image: url(./assets/images/banner.png), linear-gradient(#040709, #0a181e, #0f2b36, #0a181e, #040709);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 605px;
     display: flex;
     border-bottom: 0.1rem solid #33A8DB80;
@@ -32,12 +33,23 @@ body{
     padding: 1.5rem;
 }
 
+.module{
+    color: white;
+}
+
 #course-content{
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 0;
     background-color: black;
+    height: 530px;
+    gap:2rem
+}
+
+#course-content p{
+    width: 970px;
 }
 
 h1, h2, button {
@@ -58,6 +70,7 @@ h1{
 }
 
 h2 {
+    font-size: 32px;
     margin: 0;
     font-weight: 700;
 }
